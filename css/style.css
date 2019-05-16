@@ -14,7 +14,7 @@ select,
 textarea {
   font-family: "Ubuntu", "Roboto", "Open Sans", "Microsoft YaHei", sans-serif;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1600px) {
   .is-1-column .container,
   .is-2-column .container {
     max-width: 1472px;
@@ -23,8 +23,8 @@ textarea {
 }
 @media screen and (min-width: 1472px) {
   .is-2-column .container {
-    max-width: 1152px;
-    width: 1152px;
+    max-width: 1472px;
+    width: 1472px;
   }
   .is-1-column .container {
     max-width: 1472px;
