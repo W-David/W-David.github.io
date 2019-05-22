@@ -16,7 +16,7 @@
 <meta property="og:description" content="创建仓库：git initGit 使用 git init 命令来初始化一个 Git 仓库，Git 的很多命令都需要在 Git 的仓库中运行，所以 git init 是使用 Git 的第一个命令。 在执行完成 git init 命令后，Git 仓库会生成一个 .git 目录，该目录包含了资源的所有元数据，其他的项目目录保持不变（不像 SVN 会在每个子目录生成 .svn 目录，Git 只在仓库的根目">
 <meta property="og:locale" content="zh-CN">
 <meta property="og:image" content="http://coody.info/gallery/gitCover.gif">
-<meta property="og:updated_time" content="2019-05-16T10:34:02.661Z">
+<meta property="og:updated_time" content="2019-05-22T04:51:16.857Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Git 命令">
 <meta name="twitter:description" content="创建仓库：git initGit 使用 git init 命令来初始化一个 Git 仓库，Git 的很多命令都需要在 Git 的仓库中运行，所以 git init 是使用 Git 的第一个命令。 在执行完成 git init 命令后，Git 仓库会生成一个 .git 目录，该目录包含了资源的所有元数据，其他的项目目录保持不变（不像 SVN 会在每个子目录生成 .svn 目录，Git 只在仓库的根目">
@@ -165,7 +165,7 @@
                 <span class="level-item has-text-grey">
                     
                     
-                    21 分钟 读完 (大约 3078 个字)
+                    20 分钟 读完 (大约 3005 个字)
                 </span>
                 
                 
@@ -207,11 +207,6 @@
 <figure class="highlight plain hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git clone git://github.com/schacon/grit.git mygrit</span><br></pre></td></tr></table></figure>
 <h2 id="基本操作："><a href="#基本操作：" class="headerlink" title="基本操作："></a>基本操作：</h2><h3 id="git-add"><a href="#git-add" class="headerlink" title="git add"></a>git add</h3><p>git add 命令可将该文件添加到缓存，如我们添加以下两个文件：</p>
 <figure class="highlight plain hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">$ touch README</span><br><span class="line">$ touch hello.php</span><br><span class="line">$ ls</span><br><span class="line">README        hello.php</span><br><span class="line">$ git status -s</span><br><span class="line">?? README</span><br><span class="line">?? hello.php</span><br><span class="line">$</span><br></pre></td></tr></table></figure>
-<p>git status 命令用于查看项目的当前状态。</p>
-<p>接下来我们执行 git add 命令来添加文件：</p>
-<figure class="highlight plain hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git add README hello.php</span><br></pre></td></tr></table></figure>
-<p>现在我们再执行 git status，就可以看到这两个文件已经加上去了。</p>
-<figure class="highlight plain hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ git status -s</span><br><span class="line">A  README</span><br><span class="line">A  hello.php</span><br><span class="line">$</span><br></pre></td></tr></table></figure>
 <p>git status 命令用于查看项目的当前状态。</p>
 <p>接下来我们执行 git add 命令来添加文件：</p>
 <figure class="highlight plain hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git add README hello.php</span><br></pre></td></tr></table></figure>
@@ -356,6 +351,13 @@
 <div class="card card-transparent">
     <div class="level post-navigation is-flex-wrap is-mobile">
         
+        <div class="level-start">
+            <a class="level level-item has-link-grey  article-nav-prev" href="/2019/05/22/Git命令大全/">
+                <i class="level-item fas fa-chevron-left"></i>
+                <span class="level-item">Git命令大全</span>
+            </a>
+        </div>
+        
         
         <div class="level-end">
             <a class="level level-item has-link-grey  article-nav-next" href="/2019/05/16/PAT/">
@@ -413,7 +415,7 @@
                         文章
                     </p>
                     <p class="title has-text-weight-normal">
-                        3
+                        4
                     </p>
                 </div>
             </div>
@@ -433,7 +435,7 @@
                         标签
                     </p>
                     <p class="title has-text-weight-normal">
-                        3
+                        4
                     </p>
                 </div>
             </div>
@@ -595,7 +597,7 @@
                     <span class="level-item">五月 2019</span>
                 </span>
                 <span class="level-end">
-                    <span class="level-item tag">3</span>
+                    <span class="level-item tag">4</span>
                 </span>
             </a>
         </li>
@@ -612,6 +614,13 @@
                 标签
             </h3>
             <div class="field is-grouped is-grouped-multiline">
+                
+                <div class="control">
+                    <a class="tags has-addons" href="/tags/Git/">
+                        <span class="tag">Git</span>
+                        <span class="tag is-grey">1</span>
+                    </a>
+                </div>
                 
                 <div class="control">
                     <a class="tags has-addons" href="/tags/PAT练习/">
@@ -686,7 +695,7 @@
         <h3 class="menu-label">
             标签云
         </h3>
-        <a href="/tags/PAT练习/" style="font-size: 10px;">PAT练习</a> <a href="/tags/git/" style="font-size: 10px;">git</a> <a href="/tags/wallpaper/" style="font-size: 10px;">wallpaper</a>
+        <a href="/tags/Git/" style="font-size: 10px;">Git</a> <a href="/tags/PAT练习/" style="font-size: 10px;">PAT练习</a> <a href="/tags/git/" style="font-size: 10px;">git</a> <a href="/tags/wallpaper/" style="font-size: 10px;">wallpaper</a>
     </div>
 </div>
 
@@ -697,6 +706,25 @@
         <h3 class="menu-label">
             最新文章
         </h3>
+        
+        <article class="media">
+            
+            <a href="/2019/05/22/Git命令大全/" class="media-left">
+                <p class="image is-64x64">
+                    <img class="thumbnail" src="/images/thumbnail.svg" alt="Git命令大全">
+                </p>
+            </a>
+            
+            <div class="media-content">
+                <div class="content">
+                    <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2019-05-22T04:49:15.000Z">2019-05-22</time></div>
+                    <a href="/2019/05/22/Git命令大全/" class="has-link-black-ter is-size-6">Git命令大全</a>
+                    <p class="is-size-7 is-uppercase">
+                        
+                    </p>
+                </div>
+            </div>
+        </article>
         
         <article class="media">
             
