@@ -8,11 +8,11 @@ tags: grub
 	个人认为比较好看的一款，Aurora-Penguinis-GRUB2;
 	下载，解压
 	温习一下解压常用的命令：
-	<!-- more -->
 	* tar格式：
 		× 解包：tar xvf filename.tar
 		× 压缩：tar cvf filename
 	* tar.gz 格式：
+<!-- more -->
 		× 解包：tar zxvf filename.tar.gz
 		× 压缩：tar zcvf filename.tar.gz
 	* zip格式：
