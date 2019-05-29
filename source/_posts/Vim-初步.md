@@ -3,7 +3,6 @@ title: Vim-初步
 date: 2019-05-27 21:16:45
 tags: vim
 ---
-# vim 初识
 ## vim 模式：
 	vim有四个模式； 分别是
 	编辑模式：按ESC 进入

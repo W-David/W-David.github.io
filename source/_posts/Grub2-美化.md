@@ -3,12 +3,12 @@ title: Grub2 美化
 date: 2019-05-29 22:06:46
 tags: grub
 ---
-# Grub2 美化
 
 ## 1.找资源
 	个人认为比较好看的一款，Aurora-Penguinis-GRUB2;
 	下载，解压
 	温习一下解压常用的命令：
+	<!-- more -->
 	* tar格式：
 		× 解包：tar xvf filename.tar
 		× 压缩：tar cvf filename
