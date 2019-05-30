@@ -1,5 +1,6 @@
 ---
 title: Vim-初步
+thumbnail: /gallery/wallhaven-747189.jpg
 date: 2019-05-27 21:16:45
 tags: vim
 ---

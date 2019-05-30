@@ -1,6 +1,6 @@
 ---
 title: 紧急救援
-thumbnail: /gallery/PAT.png
+thumbnail: /gallery/wallhaven-2kjegy.png
 date: 2019-05-16 15:34:25
 tags: PAT练习
 categories: 刷题
