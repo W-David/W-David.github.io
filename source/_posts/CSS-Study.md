@@ -1,9 +1,9 @@
 ---
 title: CSS-Study
+thumbnail: /gallery/wallhaven-4oy1pp.jpg
 date: 2019-07-15 19:20:35
 tags: CSS
 ---
-# CSS 学习笔记
 ## CSS 如何工作
 1. Load HTML
 2. Parse HTML

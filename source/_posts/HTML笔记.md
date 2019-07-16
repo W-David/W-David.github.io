@@ -1,5 +1,6 @@
 ---
-title: HTML笔记.md
+title: HTML笔记
+thumbnail: /gallery/wallhaven-q638o5.jpg
 date: 2019-07-09 15:44:12
 tags: html
 ---

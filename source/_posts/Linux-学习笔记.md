@@ -1,5 +1,6 @@
 ---
 title: Linux 学习笔记
+thumbnail: /gallery/wallhaven-4dpgpl.jpg
 date: 2019-06-20 17:24:42
 tags: linux
 ---
