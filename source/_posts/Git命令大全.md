@@ -5,7 +5,7 @@ date: 2019-05-22 12:49:15
 tags: Git
 ---
 
-##  1.连接远程仓库
+## 1.连接远程仓库
 * 生成 SSH Key :
   `ssh-keygen -t rsa -C "youremail@example.com"`
 * 验证是否成功：
