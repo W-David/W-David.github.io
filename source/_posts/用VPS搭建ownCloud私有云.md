@@ -3,11 +3,13 @@ title: 用VPS搭建ownCloud私有云
 date: 2019-08-19 00:34:55
 tags:
 ---
->> ownCloud 安装 <sub>踩坑</sub>
+## ownCloud 安装 <sub>踩坑</sub>
 
 **本来打算直接按照官方教程安装的，但PHP环境配置一直出问题,最后还是用docker了(省心**
 系统： CentOS7
-## 安装docker
+VPS：hostwinds
+<!--more-->
+### 安装docker
 * 检查内核版本，（>= 3.8)
 ```
 # uname -r
@@ -38,7 +40,7 @@ tags:
 ```
 # systemctl start docker
 ```
-## docker 安装 owncloud 
+### docker 安装 owncloud 
 * 拉取owncloud官方镜像
 ```
 # sudo docker pull owncloud
@@ -58,7 +60,7 @@ tags:
 **-p 8008:80**: 将容器的80端口映射到宿主机的8008端口
 **--link own-mysql:mysql -d owncloud**: 将owncloud容器(客户)链接到own-mysql容器(服务),链接别名：mysql
 
-## 配置owncloud
+### 配置owncloud
 在浏览器上访问 http:IP:8008,设置owncloud,这里遇到了问题
 The server requested authentication method unknown to the client
 google了一下是由于新版本的mysql帐号密码解锁机制不一致导致的
