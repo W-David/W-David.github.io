@@ -2,25 +2,24 @@
 <html lang="zh">
 <head><meta name="generator" content="Hexo 3.9.0">
     <meta charset="utf-8">
-<title>HTML笔记 - Coody</title>
+<title>搜索二叉树(c++ implementation) - Coody</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 
 
-    <meta name="description" content="1. 常用的标签&amp;lt;html&amp;gt; &amp;lt;body&amp;gt; &amp;lt;title&amp;gt; &amp;lt;meta&amp;gt; &amp;lt;body&amp;gt; 每个html文本都要有 &amp;lt;p&amp;gt;  &amp;lt;h1&amp;gt;..&amp;lt;h6&amp;gt; &amp;lt;hr&amp;gt; &amp;lt;br&amp;gt; 段落，标题，分割线，换行 &amp;lt;a href=&amp;quot;link-url&amp;quot;&amp;gt;描述&amp;lt;/a&amp;g">
-<meta name="keywords" content="html">
+    <meta name="description" content="二叉搜索树简要介绍二叉搜索树的定义： 二叉搜索树又叫二叉查找树，它或者是一棵空树，或者是具有下列性质的二叉树：  若它的左子树不空，则左子树上所有结点的值均小于它的根结点的值；  若它的右子树不空，则右子树上所有结点的值均大于它的根结点的值；  它的左、右子树也分别为二叉搜索树。">
 <meta property="og:type" content="article">
-<meta property="og:title" content="HTML笔记">
-<meta property="og:url" content="http://coody.info/2019/07/09/HTML笔记/index.html">
+<meta property="og:title" content="搜索二叉树(c++ implementation)">
+<meta property="og:url" content="http://coody.info/2020/02/05/搜索二叉树-c-implementation/index.html">
 <meta property="og:site_name" content="Coody">
-<meta property="og:description" content="1. 常用的标签&amp;lt;html&amp;gt; &amp;lt;body&amp;gt; &amp;lt;title&amp;gt; &amp;lt;meta&amp;gt; &amp;lt;body&amp;gt; 每个html文本都要有 &amp;lt;p&amp;gt;  &amp;lt;h1&amp;gt;..&amp;lt;h6&amp;gt; &amp;lt;hr&amp;gt; &amp;lt;br&amp;gt; 段落，标题，分割线，换行 &amp;lt;a href=&amp;quot;link-url&amp;quot;&amp;gt;描述&amp;lt;/a&amp;g">
+<meta property="og:description" content="二叉搜索树简要介绍二叉搜索树的定义： 二叉搜索树又叫二叉查找树，它或者是一棵空树，或者是具有下列性质的二叉树：  若它的左子树不空，则左子树上所有结点的值均小于它的根结点的值；  若它的右子树不空，则右子树上所有结点的值均大于它的根结点的值；  它的左、右子树也分别为二叉搜索树。">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:image" content="http://coody.info/gallery/wallhaven-q638o5.jpg">
-<meta property="og:updated_time" content="2020-12-16T06:35:37.337Z">
+<meta property="og:image" content="http://coody.info/gallery/cover/wallhaven-709324.png">
+<meta property="og:updated_time" content="2020-12-16T10:25:16.292Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="HTML笔记">
-<meta name="twitter:description" content="1. 常用的标签&amp;lt;html&amp;gt; &amp;lt;body&amp;gt; &amp;lt;title&amp;gt; &amp;lt;meta&amp;gt; &amp;lt;body&amp;gt; 每个html文本都要有 &amp;lt;p&amp;gt;  &amp;lt;h1&amp;gt;..&amp;lt;h6&amp;gt; &amp;lt;hr&amp;gt; &amp;lt;br&amp;gt; 段落，标题，分割线，换行 &amp;lt;a href=&amp;quot;link-url&amp;quot;&amp;gt;描述&amp;lt;/a&amp;g">
-<meta name="twitter:image" content="http://coody.info/gallery/wallhaven-q638o5.jpg">
+<meta name="twitter:title" content="搜索二叉树(c++ implementation)">
+<meta name="twitter:description" content="二叉搜索树简要介绍二叉搜索树的定义： 二叉搜索树又叫二叉查找树，它或者是一棵空树，或者是具有下列性质的二叉树：  若它的左子树不空，则左子树上所有结点的值均小于它的根结点的值；  若它的右子树不空，则右子树上所有结点的值均大于它的根结点的值；  它的左、右子树也分别为二叉搜索树。">
+<meta name="twitter:image" content="http://coody.info/gallery/cover/wallhaven-709324.png">
 
 
 
@@ -98,7 +97,7 @@
         <div class="navbar-brand is-flex-center">
             <a class="navbar-item navbar-logo" href="/">
             
-                <img src="/images/TitleIcon.png" alt="HTML笔记" height="28">
+                <img src="/images/TitleIcon.png" alt="搜索二叉树(c++ implementation)" height="28">
             
             </a>
         </div>
@@ -151,7 +150,7 @@
     
     <div class="card-image">
         <span class="image is-7by1">
-            <img class="thumbnail" src="/gallery/wallhaven-q638o5.jpg" alt="HTML笔记">
+            <img class="thumbnail" src="/gallery/cover/wallhaven-709324.png" alt="搜索二叉树(c++ implementation)">
         </span>
     </div>
     
@@ -159,13 +158,13 @@
         
         <div class="level article-meta is-size-7 is-uppercase is-mobile is-overflow-x-auto">
             <div class="level-left">
-                <time class="level-item has-text-grey" datetime="2019-07-09T07:44:12.000Z">2019-07-09</time>
+                <time class="level-item has-text-grey" datetime="2020-02-05T10:05:27.000Z">2020-02-05</time>
                 
                 
                 <span class="level-item has-text-grey">
                     
                     
-                    2 分钟 读完 (大约 325 个字)
+                    4 分钟 读完 (大约 664 个字)
                 </span>
                 
                 
@@ -179,68 +178,28 @@
         
         <h1 class="title is-size-3 is-size-4-mobile has-text-weight-normal">
             
-                HTML笔记
+                搜索二叉树(c++ implementation)
             
         </h1>
         <div class="content">
-            <h2 id="1-常用的标签"><a href="#1-常用的标签" class="headerlink" title="1. 常用的标签"></a>1. 常用的标签</h2><pre><code>&lt;html&gt; &lt;body&gt; &lt;title&gt; &lt;meta&gt; &lt;body&gt; 每个html文本都要有
-&lt;p&gt;  &lt;h1&gt;..&lt;h6&gt; &lt;hr&gt; &lt;br&gt; 段落，标题，分割线，换行
-&lt;a href=&quot;link-url&quot;&gt;描述&lt;/a&gt;
-</code></pre><a id="more"></a>
-<h2 id="2-其他标签"><a href="#2-其他标签" class="headerlink" title="2. 其他标签"></a>2. 其他标签</h2><pre><code>&lt;b&gt; &lt;i&gt; 加粗 ，斜体
-&lt;strong&gt; &lt;em&gt; 重要文本 和上边两个标签视觉效果相似
-&lt;a href=&quot;httpUrl&quot; target=&quot;_blank&quot;&gt;描述&lt;/a&gt;
-</code></pre><h2 id="3-HTML-CSS"><a href="#3-HTML-CSS" class="headerlink" title="3.HTML CSS"></a>3.HTML CSS</h2><ul>
-<li>内联样式：在HTML属性内使用</li>
-</ul>
-<p><code>&lt;p style=&quot;color:blue;margin-left:20px;&quot;&gt;这是一个段落。&lt;/p&gt;</code></p>
+            <h1 id="二叉搜索树简要介绍"><a href="#二叉搜索树简要介绍" class="headerlink" title="二叉搜索树简要介绍"></a>二叉搜索树简要介绍</h1><p><strong>二叉搜索树的定义：</strong> <br><br>二叉搜索树又叫二叉查找树，<br>它或者是一棵空树，或者是具有下列性质的二叉树：</p>
 <ul>
-<li><p>内部样式表： 在<code>&lt;head&gt;</code>区域使用<code>&lt;style&gt;</code></p>
-<figure class="highlight plain hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&lt;head&gt;</span><br><span class="line">&lt;style type=&quot;text/css&quot;&gt;</span><br><span class="line">body &#123;background-color:yellow;&#125;        </span><br><span class="line">p &#123;color:blue;&#125;</span><br><span class="line">&lt;/style&gt;</span><br><span class="line">&lt;/head&gt;</span><br></pre></td></tr></table></figure>
+<li><p>若它的左子树不空，则左子树上所有结点的值均小于它的根结点的值；</p>
 </li>
-<li><p>外部引用： 使用外部CSS文件 使用<code>&lt;link&gt;</code> 标签</p>
-<figure class="highlight plain hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;head&gt;</span><br><span class="line">&lt;link ref=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;mystyle.css&quot;&gt;</span><br><span class="line">&lt;/head&gt;</span><br></pre></td></tr></table></figure>
+<li><p>若它的右子树不空，则右子树上所有结点的值均大于它的根结点的值；</p>
+</li>
+<li><p>它的左、右子树也分别为二叉搜索树。</p>
+<a id="more"></a>
+<p>树的种类很多，除了二叉搜索树(BST),还有平衡二叉树（AVL）,红黑树，B树，B+树等等。</p>
+<h1 id="二叉搜索树的实现"><a href="#二叉搜索树的实现" class="headerlink" title="二叉搜索树的实现"></a>二叉搜索树的实现</h1><h2 id="数据结构及接口的定义"><a href="#数据结构及接口的定义" class="headerlink" title="数据结构及接口的定义"></a>数据结构及接口的定义</h2></li>
+<li><p>添加了父节点的指针，便于实现删除操作。（也可以使用引用）<br><br><strong>节点的定义如下</strong></p>
+<figure class="highlight cpp hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="hljs-keyword">typedef</span> <span class="hljs-class"><span class="hljs-keyword">struct</span> <span class="hljs-title">node</span> *<span class="hljs-title">nodePtr</span>;</span></span><br><span class="line"><span class="hljs-keyword">static</span> nodePtr root;</span><br><span class="line"><span class="hljs-class"><span class="hljs-keyword">struct</span> <span class="hljs-title">node</span>&#123;</span></span><br><span class="line">    <span class="hljs-keyword">int</span> val;</span><br><span class="line">    nodePtr parent;</span><br><span class="line">    nodePtr left&#123;&#125;;</span><br><span class="line">    nodePtr right&#123;&#125;;</span><br><span class="line">    <span class="hljs-function"><span class="hljs-keyword">explicit</span> <span class="hljs-title">node</span><span class="hljs-params">(<span class="hljs-keyword">int</span> val,nodePtr parent)</span></span>&#123;<span class="hljs-keyword">this</span>-&gt;val = val;<span class="hljs-keyword">this</span>-&gt;parent = parent;&#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>树的遍历都是老生常谈的话题了，这里不再赘述。主要实现的树的插入，构造，删除等操作。<br><br><strong>实现的接口如下</strong></p>
+<figure class="highlight cpp hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="hljs-function">nodePtr <span class="hljs-title">find</span><span class="hljs-params">(<span class="hljs-keyword">int</span> val,nodePtr np)</span></span>;</span><br><span class="line"><span class="hljs-function">nodePtr <span class="hljs-title">findMax</span><span class="hljs-params">(nodePtr np)</span></span>;</span><br><span class="line"><span class="hljs-function">nodePtr <span class="hljs-title">findMin</span><span class="hljs-params">(nodePtr np)</span></span>;</span><br><span class="line"><span class="hljs-function">nodePtr <span class="hljs-title">insert</span><span class="hljs-params">(<span class="hljs-keyword">int</span> val,nodePtr np,nodePtr pnt)</span></span>;</span><br><span class="line"><span class="hljs-function">nodePtr <span class="hljs-title">CreateBST</span><span class="hljs-params">(<span class="hljs-keyword">const</span> <span class="hljs-built_in">vector</span>&lt;<span class="hljs-keyword">int</span>&gt; &amp;vc)</span></span>;</span><br><span class="line"><span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">adjustNode</span><span class="hljs-params">(nodePtr &amp;np,nodePtr &amp;tnp)</span></span>; <span class="hljs-comment">//引用，修改节点</span></span><br><span class="line"><span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">deleteMin</span><span class="hljs-params">(nodePtr np)</span></span>;</span><br><span class="line"><span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">deleteNode</span><span class="hljs-params">(<span class="hljs-keyword">int</span> val)</span></span>;</span><br><span class="line"><span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">levelTraverse</span><span class="hljs-params">()</span></span>;</span><br><span class="line"><span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">inOrderTraverse</span><span class="hljs-params">(nodePtr np)</span></span>;</span><br></pre></td></tr></table></figure>
 </li>
 </ul>
-<h2 id="4-元素标签"><a href="#4-元素标签" class="headerlink" title="4.元素标签"></a>4.元素标签</h2><h3 id="图像"><a href="#图像" class="headerlink" title="图像"></a>图像</h3><p><code>&lt;img src=&quot;image-url&quot; alt=&quot;description&quot; width=&quot;100&quot; height=&quot;200&quot;&gt;</code></p>
-<h3 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h3><figure class="highlight plain hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&lt;table border=&quot;1&quot;&gt;</span><br><span class="line">&lt;tr&gt;</span><br><span class="line">    &lt;td&gt;first row,first cell&lt;/td&gt;</span><br><span class="line">    &lt;td&gt;first row,second cell&lt;/td&gt;</span><br><span class="line">&lt;/tr&gt;</span><br><span class="line">&lt;/table&gt;</span><br></pre></td></tr></table></figure>
-<h3 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h3><ul>
-<li>有序列表</li>
-</ul>
-<p><code>&lt;ol&gt;&lt;li&gt;the context of ol&lt;/li&gt;&lt;/ol&gt;</code></p>
-<ul>
-<li>无序列表</li>
-</ul>
-<p><code>&lt;ul&gt;&lt;li&gt;the context of ul&lt;/li&gt;&lt;/ul&gt;</code></p>
-<ul>
-<li>自定义列表</li>
-</ul>
-<p><code>&lt;dl&gt;&lt;dt&gt;the context of dl&lt;/dt&gt;&lt;dd&gt;description of dt&lt;/dd&gt;&lt;/dl&gt;</code></p>
-<h3 id="区块"><a href="#区块" class="headerlink" title="区块"></a>区块</h3><blockquote>
-<p>大多数HTML元素被定义为<strong>块级元素</strong>和<strong>内联元素</strong>,块级元素在显示时，通常会以新行开始和结束,而内联元素不会以新行开始</p>
-</blockquote>
-<ul>
-<li><code>&lt;div&gt; 是块级元素，它可用于组合其他HTML 的容器</code></li>
-<li><code>&lt;span&gt; 是内联元素，可用作文本的容器</code></li>
-</ul>
-<h3 id="表单"><a href="#表单" class="headerlink" title="表单"></a>表单</h3><blockquote>
-<p>表单是一个包含表单元素的区域，表单元素是指允许用户在表单元素中输入内容，比如:      <strong>textarea(文本域), radio-buttons(单选框), checkbox(多选框), select(下拉列表)</strong><br><figure class="highlight plain hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">&lt;form name=&quot;input&quot; action=&quot;html_from_action.php&quot; mothod=&quot;get&quot;&gt;</span><br><span class="line">Username:&lt;input type=&quot;text&quot; name=&quot;username&quot;&gt;</span><br><span class="line">Password:&lt;input type=&quot;password&quot; name=&quot;password&quot;&gt;</span><br><span class="line">&lt;input type=&quot;radio&quot; name=&quot;sex&quot; value=&quot;male&quot;&gt;Male&lt;br&gt;</span><br><span class="line">&lt;input type=&quot;radio&quot; name=&quot;sex&quot; value=&quot;female&quot;&gt;Female&lt;br&gt;</span><br><span class="line">&lt;input type=&quot;checkbox&quot; name=&quot;vehicle&quot; value=&quot;Bike&quot;&gt;Bike&lt;br&gt;</span><br><span class="line">&lt;input type=&quot;checkbox&quot; name=&quot;vehicle&quot; value=&quot;Car&quot;&gt;Car&lt;br&gt;</span><br><span class="line">&lt;select name=&quot;cars&quot;&gt;</span><br><span class="line">&lt;option value=&quot;volvo&quot;&gt;Volvo&lt;/option&gt;</span><br><span class="line">&lt;option value=&quot;jik&quot;&gt;Jik&lt;/option&gt;</span><br><span class="line">&lt;/select&gt;</span><br><span class="line">&lt;input type=&quot;submit&quot; value=&quot;Submit&quot;&gt;</span><br><span class="line">&lt;/form&gt;</span><br></pre></td></tr></table></figure></p>
-</blockquote>
-<h3 id="框架"><a href="#框架" class="headerlink" title="框架"></a>框架</h3><blockquote>
-<p>定义一个内联的<strong>iframe</strong></p>
-</blockquote>
-<p><code>&lt;iframe src=&quot;url&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;</code></p>
-<h3 id="HTML-脚本"><a href="#HTML-脚本" class="headerlink" title="HTML 脚本"></a>HTML 脚本</h3><p><code>&lt;script&gt;document.write(&quot;hello world!&quot;)&lt;/script&gt;</code></p>
-<h2 id="END"><a href="#END" class="headerlink" title="END"></a>END</h2>
-        </div>
-        
-        <div class="level is-size-7 is-uppercase">
-            <div class="level-start">
-                <div class="level-item">
-                    <span class="is-size-6 has-text-grey has-mr-7">#</span>
-                    <a class="has-link-grey -link" href="/tags/html/">html</a>
-                </div>
-            </div>
+<h2 id="CODE-⇩⇩⇩"><a href="#CODE-⇩⇩⇩" class="headerlink" title="CODE ⇩⇩⇩"></a>CODE ⇩⇩⇩</h2><figure class="highlight cpp hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br></pre></td><td class="code"><pre><span class="line"><span class="hljs-meta">#<span class="hljs-meta-keyword">include</span> <span class="hljs-meta-string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="hljs-keyword">using</span> <span class="hljs-keyword">namespace</span> <span class="hljs-built_in">std</span>;</span><br><span class="line"><span class="hljs-keyword">typedef</span> <span class="hljs-class"><span class="hljs-keyword">struct</span> <span class="hljs-title">node</span> *<span class="hljs-title">nodePtr</span>;</span></span><br><span class="line"><span class="hljs-keyword">static</span> nodePtr root;</span><br><span class="line"><span class="hljs-class"><span class="hljs-keyword">struct</span> <span class="hljs-title">node</span>&#123;</span></span><br><span class="line">    <span class="hljs-keyword">int</span> val;</span><br><span class="line">    nodePtr parent;</span><br><span class="line">    nodePtr left&#123;&#125;;</span><br><span class="line">    nodePtr right&#123;&#125;;</span><br><span class="line">    <span class="hljs-function"><span class="hljs-keyword">explicit</span> <span class="hljs-title">node</span><span class="hljs-params">(<span class="hljs-keyword">int</span> val,nodePtr parent)</span></span>&#123;<span class="hljs-keyword">this</span>-&gt;val = val;<span class="hljs-keyword">this</span>-&gt;parent = parent;&#125;</span><br><span class="line">&#125;;</span><br><span class="line"><span class="hljs-function">nodePtr <span class="hljs-title">find</span><span class="hljs-params">(<span class="hljs-keyword">int</span> val,nodePtr np)</span></span>&#123;</span><br><span class="line">    <span class="hljs-keyword">if</span>(np == <span class="hljs-literal">nullptr</span>) <span class="hljs-keyword">return</span> <span class="hljs-literal">nullptr</span>;</span><br><span class="line">    <span class="hljs-keyword">if</span>(np-&gt;val == val) <span class="hljs-keyword">return</span> np;</span><br><span class="line">    <span class="hljs-keyword">if</span>(val &lt; np-&gt;val) <span class="hljs-keyword">return</span> find(val,np-&gt;left);</span><br><span class="line">    <span class="hljs-keyword">else</span> <span class="hljs-keyword">return</span> find(val,np-&gt;right);</span><br><span class="line">&#125;</span><br><span class="line"><span class="hljs-function">nodePtr <span class="hljs-title">findMax</span><span class="hljs-params">(nodePtr np)</span></span>&#123;</span><br><span class="line">    <span class="hljs-keyword">if</span>(np == <span class="hljs-literal">nullptr</span>) <span class="hljs-keyword">return</span> <span class="hljs-literal">nullptr</span>;</span><br><span class="line">    <span class="hljs-keyword">if</span>(np-&gt;right == <span class="hljs-literal">nullptr</span>) <span class="hljs-keyword">return</span> np;</span><br><span class="line">    <span class="hljs-keyword">return</span> findMax(np-&gt;right);</span><br><span class="line">&#125;</span><br><span class="line"><span class="hljs-function">nodePtr <span class="hljs-title">findMin</span><span class="hljs-params">(nodePtr np)</span></span>&#123;</span><br><span class="line">    <span class="hljs-keyword">if</span>(np == <span class="hljs-literal">nullptr</span>) <span class="hljs-keyword">return</span> <span class="hljs-literal">nullptr</span>;</span><br><span class="line">    <span class="hljs-keyword">if</span>(np-&gt;left == <span class="hljs-literal">nullptr</span>) <span class="hljs-keyword">return</span> np;</span><br><span class="line">    <span class="hljs-keyword">return</span> findMin(np-&gt;left);</span><br><span class="line">&#125;</span><br><span class="line"><span class="hljs-function">nodePtr <span class="hljs-title">insert</span><span class="hljs-params">(<span class="hljs-keyword">int</span> val,nodePtr np,nodePtr pnt)</span></span>&#123;</span><br><span class="line">    <span class="hljs-keyword">if</span>(np == <span class="hljs-literal">nullptr</span>) <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> node(val,pnt);</span><br><span class="line">    <span class="hljs-keyword">if</span>(val &lt; np-&gt;val) np-&gt;left = insert(val,np-&gt;left,np);</span><br><span class="line">    <span class="hljs-keyword">else</span> np-&gt;right = insert(val,np-&gt;right,np);</span><br><span class="line">    <span class="hljs-keyword">return</span> np;</span><br><span class="line">&#125;</span><br><span class="line"><span class="hljs-function">nodePtr <span class="hljs-title">CreateBST</span><span class="hljs-params">(<span class="hljs-keyword">const</span> <span class="hljs-built_in">vector</span>&lt;<span class="hljs-keyword">int</span>&gt; &amp;vc)</span></span>&#123;</span><br><span class="line">    <span class="hljs-keyword">for</span>(<span class="hljs-keyword">int</span> i: vc) root = insert(i,root,<span class="hljs-literal">nullptr</span>);</span><br><span class="line">    <span class="hljs-keyword">return</span> root;</span><br><span class="line">&#125;</span><br><span class="line"><span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">adjustNode</span><span class="hljs-params">(nodePtr &amp;np,nodePtr &amp;tnp)</span></span>&#123;</span><br><span class="line">    (np-&gt;val &lt; np-&gt;parent-&gt;val ? np-&gt;parent-&gt;left : np-&gt;parent-&gt;right) = tnp;</span><br><span class="line">    <span class="hljs-keyword">if</span>(tnp) tnp-&gt;parent = np-&gt;parent;</span><br><span class="line">    <span class="hljs-keyword">delete</span> np;</span><br><span class="line">&#125;</span><br><span class="line"><span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">deleteMin</span><span class="hljs-params">(nodePtr np)</span></span>&#123;</span><br><span class="line">    nodePtr minPtr = findMin(np);</span><br><span class="line">    <span class="hljs-keyword">int</span> minVal = minPtr-&gt;val;</span><br><span class="line">    adjustNode(minPtr,minPtr-&gt;right);</span><br><span class="line">    <span class="hljs-keyword">return</span> minVal;</span><br><span class="line">&#125;</span><br><span class="line"><span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">deleteNode</span><span class="hljs-params">(<span class="hljs-keyword">int</span> val)</span></span>&#123;</span><br><span class="line">    nodePtr np = find(val, root);</span><br><span class="line">    <span class="hljs-keyword">if</span>(np == <span class="hljs-literal">nullptr</span>) <span class="hljs-keyword">return</span>;</span><br><span class="line">    <span class="hljs-keyword">if</span>(np-&gt;left == <span class="hljs-literal">nullptr</span>) adjustNode(np, np-&gt;right);</span><br><span class="line">    <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span>(np-&gt;right == <span class="hljs-literal">nullptr</span>) adjustNode(np,np-&gt;left);</span><br><span class="line">    <span class="hljs-keyword">else</span> np-&gt;val = deleteMin(np-&gt;right);</span><br><span class="line">&#125;</span><br><span class="line"><span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">levelTraverse</span><span class="hljs-params">()</span></span>&#123;</span><br><span class="line">    <span class="hljs-built_in">queue</span>&lt;nodePtr&gt; levelQueue;</span><br><span class="line">    levelQueue.push(root);</span><br><span class="line">    <span class="hljs-keyword">while</span>(!levelQueue.empty())&#123;</span><br><span class="line">        nodePtr cur = levelQueue.front();</span><br><span class="line">        <span class="hljs-built_in">cout</span>&lt;&lt;(cur-&gt;val)&lt;&lt;<span class="hljs-string">" "</span>;</span><br><span class="line">        <span class="hljs-keyword">if</span>(cur-&gt;left) levelQueue.push(cur-&gt;left);</span><br><span class="line">        <span class="hljs-keyword">if</span>(cur-&gt;right) levelQueue.push(cur-&gt;right);</span><br><span class="line">        levelQueue.pop();</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="hljs-built_in">cout</span>&lt;&lt;<span class="hljs-built_in">endl</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">inOrderTraverse</span><span class="hljs-params">(nodePtr np)</span></span>&#123;</span><br><span class="line">    <span class="hljs-keyword">if</span>(np == <span class="hljs-literal">nullptr</span>) <span class="hljs-keyword">return</span>;</span><br><span class="line">    inOrderTraverse(np-&gt;left);</span><br><span class="line">    <span class="hljs-built_in">cout</span>&lt;&lt;np-&gt;val&lt;&lt;<span class="hljs-string">" "</span>;</span><br><span class="line">    inOrderTraverse(np-&gt;right);</span><br><span class="line">&#125;</span><br><span class="line"><span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span> </span>&#123;</span><br><span class="line">    <span class="hljs-keyword">int</span> lis[<span class="hljs-number">10</span>] = &#123;<span class="hljs-number">88</span>,<span class="hljs-number">70</span>,<span class="hljs-number">61</span>,<span class="hljs-number">96</span>,<span class="hljs-number">120</span>,<span class="hljs-number">90</span>,<span class="hljs-number">65</span>,<span class="hljs-number">75</span>,<span class="hljs-number">93</span>,<span class="hljs-number">100</span>&#125;;</span><br><span class="line">    <span class="hljs-function"><span class="hljs-built_in">vector</span>&lt;<span class="hljs-keyword">int</span>&gt;  <span class="hljs-title">vc</span><span class="hljs-params">(lis,lis+<span class="hljs-number">10</span>)</span></span>;</span><br><span class="line">    root = CreateBST(vc);</span><br><span class="line">    levelTraverse();</span><br><span class="line">    inOrderTraverse(root); <span class="hljs-built_in">cout</span>&lt;&lt;<span class="hljs-built_in">endl</span>;</span><br><span class="line">    deleteNode(<span class="hljs-number">96</span>);</span><br><span class="line">    deleteNode(<span class="hljs-number">70</span>);</span><br><span class="line">    deleteNode(<span class="hljs-number">88</span>);</span><br><span class="line">    deleteNode(<span class="hljs-number">11</span>);</span><br><span class="line">    levelTraverse();</span><br><span class="line">    inOrderTraverse(root); <span class="hljs-built_in">cout</span>&lt;&lt;<span class="hljs-built_in">endl</span>;</span><br><span class="line">    <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
         </div>
         
         
@@ -288,17 +247,10 @@
 <div class="card card-transparent">
     <div class="level post-navigation is-flex-wrap is-mobile">
         
-        <div class="level-start">
-            <a class="level level-item has-link-grey  article-nav-prev" href="/2019/07/15/CSS-Study/">
-                <i class="level-item fas fa-chevron-left"></i>
-                <span class="level-item">CSS-Study</span>
-            </a>
-        </div>
-        
         
         <div class="level-end">
-            <a class="level level-item has-link-grey  article-nav-next" href="/2019/06/20/Linux-学习笔记/">
-                <span class="level-item">Linux 学习笔记</span>
+            <a class="level level-item has-link-grey  article-nav-next" href="/2020/01/23/二分查找-扩展/">
+                <span class="level-item">二分查找-扩展</span>
                 <i class="level-item fas fa-chevron-right"></i>
             </a>
         </div>
@@ -437,54 +389,22 @@
                 目录
             </h3>
             <ul class="menu-list"><li>
-        <a class="is-flex" href="#1-常用的标签">
+        <a class="is-flex" href="#二叉搜索树简要介绍">
         <span class="has-mr-6">1</span>
-        <span>1. 常用的标签</span>
+        <span>二叉搜索树简要介绍</span>
         </a></li><li>
-        <a class="is-flex" href="#2-其他标签">
+        <a class="is-flex" href="#二叉搜索树的实现">
         <span class="has-mr-6">2</span>
-        <span>2. 其他标签</span>
-        </a></li><li>
-        <a class="is-flex" href="#3-HTML-CSS">
-        <span class="has-mr-6">3</span>
-        <span>3.HTML CSS</span>
-        </a></li><li>
-        <a class="is-flex" href="#4-元素标签">
-        <span class="has-mr-6">4</span>
-        <span>4.元素标签</span>
+        <span>二叉搜索树的实现</span>
         </a><ul class="menu-list"><li>
-        <a class="is-flex" href="#图像">
-        <span class="has-mr-6">4.1</span>
-        <span>图像</span>
+        <a class="is-flex" href="#数据结构及接口的定义">
+        <span class="has-mr-6">2.1</span>
+        <span>数据结构及接口的定义</span>
         </a></li><li>
-        <a class="is-flex" href="#表格">
-        <span class="has-mr-6">4.2</span>
-        <span>表格</span>
-        </a></li><li>
-        <a class="is-flex" href="#列表">
-        <span class="has-mr-6">4.3</span>
-        <span>列表</span>
-        </a></li><li>
-        <a class="is-flex" href="#区块">
-        <span class="has-mr-6">4.4</span>
-        <span>区块</span>
-        </a></li><li>
-        <a class="is-flex" href="#表单">
-        <span class="has-mr-6">4.5</span>
-        <span>表单</span>
-        </a></li><li>
-        <a class="is-flex" href="#框架">
-        <span class="has-mr-6">4.6</span>
-        <span>框架</span>
-        </a></li><li>
-        <a class="is-flex" href="#HTML-脚本">
-        <span class="has-mr-6">4.7</span>
-        <span>HTML 脚本</span>
-        </a></li></ul></li><li>
-        <a class="is-flex" href="#END">
-        <span class="has-mr-6">5</span>
-        <span>END</span>
-        </a></li></ul>
+        <a class="is-flex" href="#CODE-⇩⇩⇩">
+        <span class="has-mr-6">2.2</span>
+        <span>CODE ⇩⇩⇩</span>
+        </a></li></ul></li></ul>
         </div>
     </div>
 </div>
@@ -853,7 +773,7 @@
             <div class="level-start has-text-centered-mobile">
                 <a class="footer-logo is-block has-mb-6" href="/">
                 
-                    <img src="/images/TitleIcon.png" alt="HTML笔记" height="28">
+                    <img src="/images/TitleIcon.png" alt="搜索二叉树(c++ implementation)" height="28">
                 
                 </a>
                 <p class="is-size-7">
