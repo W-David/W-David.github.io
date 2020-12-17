@@ -1,6 +1,8 @@
 ---
 title: Git命令大全
+toc: true
 thumbnail: /gallery/wallhaven-4v9ml0.jpg
+cover: /gallery/wallhaven-4v9ml0.jpg
 date: 2019-05-22 12:49:15
 tags: Git
 ---

@@ -1,5 +1,7 @@
 ---
 title: Grub2 美化
+toc: true
+cover: /gallery/wallhaven-744071.jpg
 thumbnail: /gallery/wallhaven-744071.jpg
 date: 2019-05-29 22:06:46
 tags: grub

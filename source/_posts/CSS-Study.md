@@ -1,5 +1,7 @@
 ---
 title: CSS-Study
+toc: true
+cover: /gallery/wallhaven-4oy1pp.jpg
 thumbnail: /gallery/wallhaven-4oy1pp.jpg
 date: 2019-07-15 19:20:35
 tags: CSS

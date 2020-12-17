@@ -1,5 +1,7 @@
 ---
 title: 紧急救援
+toc: true
+cover: /gallery/wallhaven-2kjegy.png
 thumbnail: /gallery/wallhaven-2kjegy.png
 date: 2019-05-16 15:34:25
 tags: PAT练习

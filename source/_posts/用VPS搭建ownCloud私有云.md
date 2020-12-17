@@ -1,8 +1,10 @@
 ---
 title: 用VPS搭建ownCloud私有云
 date: 2019-08-19 00:34:55
+toc: true
+cover: /gallery/1428193fe1a6de878e987cfd64c7b164.jpg
 thumbnail: /gallery/1428193fe1a6de878e987cfd64c7b164.jpg
-tags:
+tags: vps
 ---
 ## ownCloud 安装 <sub>踩坑</sub>
 

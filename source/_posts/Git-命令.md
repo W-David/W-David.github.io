@@ -1,6 +1,8 @@
 ---
 title: Git 命令
 tags: git
+toc: true
+cover: /gallery/gitCover.gif
 thumbnail: /gallery/gitCover.gif
 categories: 记录
 date: 2019-05-16 18:31:43

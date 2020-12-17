@@ -1,6 +1,8 @@
 ---
 title: 搜索二叉树(c++ implementation)
 date: 2020-02-05 18:05:27
+toc: true
+cover: /gallery/cover/wallhaven-709324.png
 thumbnail: /gallery/cover/wallhaven-709324.png
 tags:
 ---
