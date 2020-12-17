@@ -3,9 +3,8 @@ title: HTML笔记
 toc: true
 cover: /gallery/wallhaven-q638o5.jpg
 thumbnail: /gallery/wallhaven-q638o5.jpg
-tags: html
 date: 2019-07-09 15:44:12
-tags: html
+tags: 文本标记
 ---
 
 ## 1. 常用的标签
