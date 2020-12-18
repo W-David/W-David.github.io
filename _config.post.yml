@@ -1,5 +1,24 @@
 widgets:
     -
+        type: profile
+        position: left
+        author: Coody
+        location: Earth
+        avatar: https://s2.ax1x.com/2019/05/16/EbDkjI.jpg 
+        avatar_rounded: true
+        follow_link: 'https://github.com/W-David/'
+        social_links:
+            Github:
+                icon: fab fa-github
+                url: 'https://github.com/W-David/'
+            Facebook:
+                icon: fab fa-facebook
+                url: 'https://facebook.com'
+            Twitter:
+                icon: fab fa-twitter
+                url: 'https://twitter.com'
+
+    -
         type: toc
         position: left
     
