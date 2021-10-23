@@ -10,7 +10,7 @@ tags: nginx
 分别是:
 <br>
 1. <p style="text-decoration: underline;">通过二级域名配置<p>
-2. <p style="text-decoration: underline; color: yellow;">通过location目录配置<p>
+2. <p style="text-decoration: underline;">通过location目录配置<p>
 
 > 使用腾讯云的轻量云服务器, 系统 centos 7,Nginx版本 1.16.1,nginx配置文件位置: <p style="text-decoration: underline;">/etc/nginx/nginx.conf<p>
 
