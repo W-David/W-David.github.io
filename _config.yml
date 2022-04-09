@@ -81,6 +81,8 @@ deploy:
   type: git
   repo:
         github: git@github.com:W-David/W-David.github.io.git
+        ## gitee国内分流（加快访问速度)
+        gitee: git@gitee.com:jiuyanlight/jiuyanlight.git
   branch: master
 
 # Live2D
