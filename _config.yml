@@ -79,8 +79,7 @@ theme: icarus
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: 
-        coding: git@e.coding.net:coodyperson/coodyblog/coodyBlog.git
+  repo:
         github: git@github.com:W-David/W-David.github.io.git
   branch: master
 
