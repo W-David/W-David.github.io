@@ -79,7 +79,9 @@ theme: icarus
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:W-David/W-David.github.io.git
+  repo: 
+        coding: git@e.coding.net:coodyperson/coodyblog/coodyBlog.git
+        github: git@github.com:W-David/W-David.github.io.git
   branch: master
 
 # Live2D
